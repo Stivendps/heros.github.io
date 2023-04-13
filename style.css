@@ -1,0 +1,100 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  
+  body {
+    color: #ffe600;
+    background-image: url("img/heros.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1. 4em;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h1, h2 {
+    font-family: Georgia, Times, serif;
+    color: yellow;
+    background-color: hsl(0, 59%, 41%,0.5);
+    border-radius: 5px;
+    border: 1px solid rgb(245, 160, 4);
+    padding: 3px ;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: aquamarine;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+  }
+  
+  section p {
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  section ul {
+    margin-top: 0;
+    color: rgb(252, 252, 252);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+    margin: 30px 15px 15px 15px;
+  }
+
+  /*personalizacion*/
+
+  body{
+    background-image: url("img/heros.jpg");
+  }
+
+  @media screen and (max-width: 768px) {
+       
+    body {
+        
+        margin: 60px 30px 30px 30px;
+        background-size: auto;
+        background-position: 70%;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #000000;
+      }
+
+    h2 {
+        margin: 60px 30px 30px 30px;
+        font-size: 1.2rem;
+        letter-spacing: -2px;
+        margin-bottom: 10px;
+        color: black;
+      }
+
+
+  }
+
